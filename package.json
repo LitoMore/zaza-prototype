@@ -1,0 +1,32 @@
+{
+  "name": "zaza-prototype",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A prototype project for Flora's Zaza",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LitoMore/zaza-prototype.git"
+  },
+  "keywords": [
+    "zaza"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "author": "LitoMore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LitoMore/zaza-prototype/issues"
+  },
+  "homepage": "https://github.com/LitoMore/zaza-prototype#readme",
+  "dependencies": {
+    "fanfou-sdk": "^4.0.5"
+  },
+  "devDependencies": {
+    "xo": "^0.24.0"
+  }
+}
