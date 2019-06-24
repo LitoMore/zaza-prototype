@@ -5,7 +5,7 @@
   "description": "A prototype project for Flora's Zaza",
   "main": "index.js",
   "scripts": {
-    "test": "xo"
+    "test": "xo && nyc ava"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,11 @@
     "fanfou-sdk": "^4.0.5"
   },
   "devDependencies": {
+    "ava": "^2.1.0",
+    "clear-module": "^3.2.0",
+    "coveralls": "^3.0.4",
+    "mock-require": "^3.0.3",
+    "nyc": "^14.1.1",
     "xo": "^0.24.0"
   }
 }
