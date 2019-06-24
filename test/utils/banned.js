@@ -15,7 +15,10 @@ const mockBanned = {
 };
 
 const setupTest = () => {
-	['../../utils/fanfou', '../../config/banned'].forEach(clearModule);
+	try {
+		['../../utils/fanfou', '../../config/banned'].forEach(clearModule);
+	} catch {}
+
 	mock('../../config/banned', mockBanned);
 	const {isBanned} = require('../../utils/fanfou');
 	isBannedFunc = isBanned;
