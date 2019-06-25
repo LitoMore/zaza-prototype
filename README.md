@@ -5,7 +5,7 @@
 [![](https://img.shields.io/github/license/LitoMore/zaza-prototype.svg)](https://github.com/LitoMore/zaza-prototype/blob/master/LICENSE)
 [![](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
-A prototype project for Flora's Zaza
+A prototype project for Flora's [Zaza](https://github.com/FFFlora/zaza)
 
 ## Playground
 
